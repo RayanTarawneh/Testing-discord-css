@@ -22,7 +22,7 @@
   /*
     Main Theme Color
   */
-  --main-theme-color: rgb(123, 40, 231); /*Color theme for Role Title Color */
+  --main-theme-color: rgba(123, 40, 231,1); /*Color theme for Role Title Color */
   --green: rgb(67, 181, 129);
   /*
     Main Theme Transparency
@@ -32,7 +32,7 @@
   /*
     Home Icon Image
   */
-  --home-icon-image: url(https://i.imgur.com/63g6Em8.jpg);
+  --home-icon-image: url(https://i.imgur.com/233d55Y.gif);
 
   /*
     Change your friends icon image position
@@ -112,8 +112,8 @@
   /*
     Message Box Transparency
   */
-  --message-box-transparency: rgba(0, 0, 0, 0.6);
-
+  --message-box-transparency:var(--main-theme-color); /*color of text box at bottom*/
+  
   /*
     Embed Background Transparency
   */
@@ -122,12 +122,12 @@
   /*
     Message Hover Buttons
   */
-  --message-hover-buttons-background: rgba(200, 200, 200, 0.3);
+  --message-hover-buttons-background: rgba(200, 200, 200, 0.3); /*background of menu when hovering over text*/
 
   /*
     Context Menu Transparency
   */
-  --context-menu-transparency: rgba(15, 15, 15, 0.8);
+  --context-menu-transparency: var(--main-theme-color); /*when right clicking something background*/
 
   /*
     Add Server / Discovery Icon
@@ -139,8 +139,8 @@
     Channel Limit Number Color
   */
   --channel-limit-count-color: var(--channels-default);
-  --channel-limit-background-left: rgba(212, 41, 41, 0.1);
-  --channel-limit-background-right: rgba(200, 200, 200, 0.2);
+  --channel-limit-background-left: var(--main-theme-color); /*The background color of max users in voice call on left */
+  --channel-limit-background-right: rgba(200, 200, 200, 0.2);/*The background color of max users in voice call on right */
 
   /*
     Scrollbar Colors
@@ -284,7 +284,7 @@
   background-color:initial
 }
 .scrollableContainer-15eg7h{
-  background-color:var(--message-box-transparency)
+  background-color:var(--message-box-transparency);
 }
 .theme-dark .form-3gdLxP:before{
   background:0 0
