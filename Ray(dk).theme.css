@@ -7,7 +7,7 @@
   * @invite jsQ9UP7kCA
 */
 
-/* double dash means its a variabl*/
+/* double dash means its a variable*/
 :root {
   --darkplus-bg: #212121;
   --darkplus-bg2: #302f2f;
@@ -22,13 +22,67 @@
   --watermark-filter-brightness: 70%;
   --watermark-filter-contrast: 200%;
   --darkplus-emoji-picker-color: 210deg;
+
+  /*
+    Theme Background
+  */
+  --theme-background-image: url(https://i.imgur.com/j1Z6HVc.jpg);
+
+  /*
+    Small User Popout
+  */
+  --small-user-popout-background-image: var(--theme-background-image);
+  --small-user-popout-background-transparency: rgba(0, 0, 0, 0.6);
+  --small-user-popout-background-image-position: center;
+
+  /*
+    Big User Popout
+  */
+  --big-user-popout-background-image: var(--theme-background-image);
+  --big-user-popout-background-transparency: rgba(0, 0, 0, 0.6);
+  --big-user-popout-background-image-position: center;
 }
+
 
 /*things i'm adding*/
 body {
 	background: var(--background-image) center/cover no-repeat;
 }
+.appMount-2yBXZl {
+  background-image:var(--theme-background-image);background-size:cover
+}
 
+.userPopout-2j1gM4{
+  background-position:var(--small-user-popout-background-image-position);background-image:var(--small-user-popout-background-image)
+}
+.headerNormal-1l1Znk{
+  background-color:var(--small-user-popout-background-transparency)
+}
+.theme-dark .headerNormal-1mX3KY{
+background-color:var(--small-user-popout-background-transparency)
+}
+.headerPlaying-j0WQBV{
+  background:var(--small-user-popout-background-transparency)
+}
+.headerSpotify-zpWxgT{
+  background:var(--small-user-popout-background-transparency)
+}
+.theme-dark .body-2wLx-E,.theme-dark .footer-1N3bR3{
+  background-color:var(--small-user-popout-background-transparency);color:hsla(0,0%,100%,.8)
+}
+.headerTop-3GPUSF{
+  background-color:var(--small-user-popout-background-transparency)
+}
+.footer-1Dc_h6{
+  background-color:var(--small-user-popout-background-transparency);margin-top:0
+}
+.footer-3naVBw{
+  background-color:var(--small-user-popout-background-transparency);margin-top:0
+}
+.userPopout-2j1gM4{
+  background-position:var(--small-user-popout-background-image-position);background-image:var(--small-user-popout-background-image)
+}
+ /* ---------------------------------------------------------------------------------------------------------------------------------- */
 .bg-1QIAus,
 .container-2RRFHK {
   background-color: var(--darkplus-bg);
