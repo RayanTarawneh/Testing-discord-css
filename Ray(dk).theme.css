@@ -14,7 +14,7 @@
   --darkplus-sec: #bb86fc;
   --darkplus-links: #cdaef3;
   --darkplus-home-icon: url(https://i.imgur.com/233d55Y.gif);
-  --background-image: url(https://i.imgur.com/7SbtKvw.png);
+  --background-image: url(https://i.imgur.com/j1Z6HVc.jpg);
   --watermark-filter-invert: 0%;
   --watermark-filter-sepia: 50%;
   --watermark-filter-saturate: 3000%;
@@ -44,7 +44,7 @@
 }
 
 
-/*things i'm adding*/
+/*things I'm adding*/
 body {
 	background: var(--background-image) center/cover no-repeat;
 }
